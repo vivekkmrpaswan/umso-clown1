@@ -1,0 +1,119 @@
+body{
+    margin: 0px;
+    background-color: black;
+}
+#nav1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding-inline: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+#logo{
+    width: 20vw;
+}
+#nd1{
+    display: flex;
+    align-items: center;
+    align-content: end;
+}
+#nd2{
+    display: flex;
+    align-items: center;
+    gap: 10px
+
+}
+#nd2>span{
+    color: white;
+}
+#nd2>button{
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#sd1 p{
+    /* border: 1px solid; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#9b977c;
+    font-size: 23px;
+    margin-top: 4px;
+    font-family: "Inter Tight", sans-serif;
+    background-color: black;
+
+}
+#sd1 span{
+    background: linear-gradient(0.25turn, 
+    #450dee, #6906de, #8002d5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+    background-clip:text;
+    font-weight: bolder;
+}
+#head2{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 90px;
+    margin-top: 15vh;
+    font-family: "Inter Tight", sans-serif;
+    font-weight: bolder;
+
+}
+#sd2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#s2 form{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    border:1px solid gray;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 60%;
+    height: 10vh;
+}
+.form button{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    font-size: medium;
+    color: white;
+    background-color: #8002d5;
+    border-radius: 8px;
+
+}
+input[type="text"]{
+    width: 65%
+}
